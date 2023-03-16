@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nevbar {
+    height: 70px;
+    /* border: solid; */
+    display: flex;
+}
+
+.nevbar .logo {
+    margin: 10px 100px 0 100px;
+    height: 35px;
+    width: 210px;
+    /* border: solid; */
+}
+
+.nevbar .tex li {
+    display: inline;
+    list-style: none;
+    margin-left: 27px;
+    line-height: 70px;
+}
+
+.nevbar .tex li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+
+.nevbar .dow {
+    margin: 7px 0 0 100px;
+    background: red;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.content {
+    height: 450px;
+    /* border: solid; */
+    display: flex;
+    background: #036da1;
+}
+
+.content .box1 {
+    height: 450px;
+    width: 30%;
+    /* border: solid; */
+    position: relative;
+}
+
+.content .box1 .tex1 {
+    height: 300px;
+    width: 100%;
+    /* border: solid; */
+    position: relative;
+    top: 150px;
+    left: 90px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.content .box1 span {
+    color: lightblue;
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.content .box1 .tex1 .x button {
+    height: 50px;
+    width: 95%;
+    background: green;
+    border: solid green;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content .box1 .tex1 .y {
+    height: 120px;
+    width: 96%;
+    /* border: solid; */
+    margin-top: 10px;
+}
+
+.content .box2 {
+    height: 450px;
+    width: 67%;
+}
+
+.main {
+    height: 310px;
+    width: 80%;
+    /* border: solid; */
+    margin: 40px auto;
+}
+
+.main h2 {
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.main .main1 {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+
+.main .img {
+    height: 250px;
+    width: 50%;
+    /* border: solid; */
+    margin: 0 0 0;
+    animation: dev 10s infinite;
+}
+
+.main .img1 {
+    height: 250px;
+    width: 50%;
+    /* border: solid; */
+    margin-left: 20px;
+    animation: manish 10s infinite;
+}
+
+@keyframes dev {
+    0% {
+        background-image: url(https://api.dominos.co.in/prod-olo-api/images/Home_au_20201029.jpg);
+        background-size: 100% 100%;
+    }
+    15% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_Paytm_20210519.jpg);
+        background-size: 100% 100%;
+    }
+    30% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_airtel_30082020.jpg);
+        background-size: 100% 100%;
+    }
+    45% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_Freecharge_20210405.jpg);
+        background-size: 100% 100%;
+    }
+    60% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Dominos_Mobi_Home_20210503.jpg);
+        background-size: 100% 100%;
+    }
+    75% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_payzapp_20201029.jpg);
+        background-size: 100% 100%;
+    }
+    100% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/amazon_home_20210412.jpg);
+        background-size: 100% 100%;
+    }
+}
+
+@keyframes manish {
+    0% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_Paytm_20210519.jpg);
+        background-size: 100% 100%;
+    }
+    15% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_airtel_30082020.jpg);
+        background-size: 100% 100%;
+    }
+    30% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_Freecharge_20210405.jpg);
+        background-size: 100% 100%;
+    }
+    45% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Dominos_Mobi_Home_20210503.jpg);
+        background-size: 100% 100%;
+    }
+    60% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/Home_payzapp_20201029.jpg);
+        background-size: 100% 100%;
+    }
+    75% {
+        background: url(https://api.dominos.co.in/prod-olo-api/images/amazon_home_20210412.jpg);
+        background-size: 100% 100%;
+    }
+    100% {
+        background-image: url(https://api.dominos.co.in/prod-olo-api/images/Home_au_20201029.jpg);
+        background-size: 100% 100%;
+    }
+}
+
+.piz {
+    height: 500px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    margin: 0px auto;
+}
+
+.piz h1 {
+    height: 70px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #708aa5;
+    padding: 10px 0;
+}
+
+.piz .menu {
+    /* height: 300px; */
+    width: 97%;
+    /* background-color: #47a0ff; */
+    margin-left: 6px;
+    display: flex;
+    /* padding-right: 5px; */
+}
+
+.piz .menu .con1 {
+    /* height: 300px; */
+    width: 25%;
+    /* background-color: brown; */
+    border: 1px dotted #979797;
+    border-radius: 3px;
+    margin-right: 6px;
+}
+
+.piz .menu .c1 {
+    margin-right: 0;
+}
+
+.piz .menu .img {
+    height: 120px;
+    /* background-color: #1fb31a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piz .menu h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #2b4547;
+}
+
+.piz .menu p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.piz .menu .pg {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.piz .menu .dis {
+    padding: 15px 0;
+    border-top: 1px dotted #979797;
+    /* border-radius: 3px; */
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+Footer
